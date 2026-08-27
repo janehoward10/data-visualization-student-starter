@@ -17,8 +17,6 @@ Publisher: Metropolitan Transportation Authority / New York State Open Data
 Source:
 https://catalog.data.gov/dataset/mta-subway-mean-distance-between-failures-beginning-2015
 
-CSV download:
-https://data.ny.gov/api/v3/views/e2qc-xgxs/export.csv?accessType=DOWNLOAD
 
 ## Attribute Analysis
 
