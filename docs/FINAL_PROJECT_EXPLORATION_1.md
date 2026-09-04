@@ -289,3 +289,82 @@ The **medical device safety** idea interests me because it combines healthcare w
 The **emergency department wait time** idea is also interesting to me because wait time is an easy measure to understand and could work well with both maps and hospital comparison visualizations.
 
 For future project exploration, I would like to investigate the available datasets more closely, determine which datasets provide the most useful and complete data, and think about which topic offers the strongest opportunities for an interactive visualization.
+
+
+
+Week 3 # Task Analysis
+
+# Task Analysis
+
+The goal of my project exploration is to think about what a user should be able to learn or accomplish with each potential visualization, independent of the specific visual form that is eventually used.
+
+## Idea 1: Hospital Quality and Patient Experience
+
+For the hospital quality and patient experience idea, the visualization should help users:
+
+- Compare hospitals across multiple measures of quality and patient experience.
+- Identify hospitals that perform especially well or especially poorly on certain measures.
+- Determine whether hospitals that perform well in one measure also tend to perform well in others.
+- Find differences between hospitals within the same state or geographic region.
+- Identify geographic patterns in hospital quality and patient experience.
+- Compare patient experience measures with other indicators like readmissions or timely care.
+- Discover hospitals that appear to be outliers relative to other hospitals with similar characteristics.
+
+The main goal would be to help users understand that hospital performance is very complex and that a hospital may have different strengths and weaknesses depending on the measure being look at.
+
+## Idea 2: Healthcare Access Across the United States
+
+For the healthcare access idea, the visualization should help users:
+
+- Identify areas with relatively high or low access to healthcare resources.
+- Compare access to healthcare between states, counties, zipcodes, etc.
+- Determine how healthcare access differs between urban and rural areas.
+- Find geographic areas that appear to have shortages of healthcare providers or facilities.
+- Compare different measures of healthcare access, such as provider availability, hospital availability, or insurance coverage.
+- Identify relationships between population characteristics and access to healthcare.
+- Discover regions that differ significantly from surrounding areas. 
+
+The main goal would be to help users understand where healthcare resources are concentrated and where access may be more limited.
+
+## Idea 3: Medical Device Safety and FDA Data
+
+For the medical device safety idea, the visualization should help users:
+
+- Identify which types of medical devices are associated with the most recalls or reported safety issues.
+- Compare recall activity across device categories or manufacturers.
+- Determine how medical device recalls have changed over time.
+- Identify time periods where recall activity increased or decreased significantly.
+- Compare the frequency of different recall classifications.
+- View common reasons for medical device recalls.
+- Find manufacturers, device types, or categories that appear to be unusual compared with the overall pattern.
+- Explore whether certain types of devices show consistent or recurring safety issues.
+
+The main goal would be to help users understand patterns in medical device safety and identify where recalls or safety concerns are concentrated.
+
+## Idea 4: Emergency Department Wait Times
+
+For the emergency department wait time idea, the visualization should help users:
+
+- Compare emergency department wait times between hospitals.
+- Identify hospitals with relatively short or long wait times.
+- Determine how emergency department wait times vary by state, region, or geographic area.
+- Identify geographic patterns where longer wait times appear to be concentrated.
+- Compare wait times between urban and rural hospitals.
+- Determine whether wait times are associated with other hospital characteristics or quality measures.
+- Identify hospitals whose wait times are unusually high or low compared with similar hospitals.
+- Explore how emergency department wait times change over time, if historical data is available.
+
+The main goal would be to help users understand how emergency department performance varies between hospitals and to identify factors or locations associated with shorter or longer waits.
+
+## Overall Task Goals
+
+Across all four project ideas, the visualization should support several general types of tasks:
+
+- **Compare:** compare hospitals, geographic areas, device categories, or other groups.
+- **Identify:** find unusually high or low values and locate important outliers.
+- **Discover patterns:** identify trends, clusters, or geographic differences in the data.
+- **Explore relationships:** determine whether different variables appear to be related.
+- **Filter and focus:** allow users to filter the data to a particular hospital, region, time period, category, or measure.
+- **Summarize:** help users understand the overall distribution and major characteristics of the dataset before examining individual cases.
+
+These tasks focus on what a user should be able to learn from the data rather than on a particular visualization technique. The final visualization type can be selected later based on which design best supports these tasks.
