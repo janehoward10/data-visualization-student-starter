@@ -368,3 +368,68 @@ Across all four project ideas, the visualization should support several general 
 - **Summarize:** help users understand the overall distribution and major characteristics of the dataset before examining individual cases.
 
 These tasks focus on what a user should be able to learn from the data rather than on a particular visualization technique. The final visualization type can be selected later based on which design best supports these tasks.
+
+
+
+
+# Validation
+
+The Four Levels of Validation provide a way to evaluate a visualization project from the real-world problem all the way down to the technical implementation. Since I am still considering several possible healthcare project ideas, the validation process would be slightly different depending on the final topic, but the same four levels can be applied to each.
+
+## 1. Domain Situation
+
+At the domain level, the main question is whether the project is addressing a useful healthcare-related problem for an appropriate user.
+
+For the hospital quality and patient experience idea, an ideal user could be a patient comparing hospitals, a healthcare administrator, or someone researching hospital performance. I would want to confirm that the measures being shown are actually meaningful to those users and that the visualization helps them answer questions they care about.
+
+For the healthcare access idea, possible users could include public health researchers, policymakers, or people interested in understanding where healthcare resources are limited. Validation at this level would involve determining whether the project helps users identify meaningful geographic differences in access to care.
+
+For the medical device safety idea, potential users could include engineers, researchers, or healthcare professionals interested in device safety trends. I would want to make sure the project focuses on information that is actually useful, such as recall trends, device categories, or recall classifications.
+
+For the emergency department wait time idea, a user could be a patient comparing nearby hospitals or a healthcare administrator comparing emergency department performance. I would want to determine whether the available wait-time measures are understandable and useful for those users.
+
+At this level, validation could involve getting feedback from people familiar with healthcare, asking potential users what information they would want to compare, or reviewing how existing healthcare tools present similar information.
+
+## 2. Data and Task Abstraction
+
+At the abstraction level, I would need to make sure I am using the correct data attributes and defining the right tasks.
+
+For example, the hospital quality project may contain attributes like hospital name, location, patient rating, readmission measures, and timely care measures. Important tasks could include comparing hospitals, identifying high or low performers, and finding relationships between different quality measures.
+
+For healthcare access, important attributes could include location, provider availability, population, insurance coverage, and shortage designations. Tasks might include comparing regions, identifying underserved areas, and finding geographic patterns.
+
+For medical device safety, attributes could include recall date, device type, manufacturer, recall classification, and reason for recall. Tasks could include identifying trends over time, comparing categories, and detecting unusually high recall activity.
+
+For emergency department wait times, attributes could include hospital, location, wait-time measures, patient ratings, and hospital characteristics. Tasks might include comparing hospitals, identifying unusually long or short waits, and looking for geographic or hospital-level patterns.
+
+Validation at this level would involve checking that the selected variables actually support the questions I want users to answer. I would also need to make sure I am not including variables simply because they are available if they do not contribute to the main tasks - No need to add extra noise. 
+
+## 3. Visual Encoding and Interaction
+
+At the visual encoding and interaction level, I would evaluate whether the way the data is presented makes the important patterns easy to understand.
+
+The visualization should make comparisons clear, allow users to identify unusually high or low values, and make important relationships or trends visible without requiring too much effort.
+
+For example, if geographic location is important, the design should make spatial patterns easy to recognize. If the goal is to compare hospitals or device categories, the design should make differences between values easy to pick up on. If changes over time are important, the visualization should clearly represent temporal trends.
+
+Interactions could also help users explore the data. Possible interactions include filtering by state, hospital, device category, or time period. Also, selecting individual items for more information or comparing multiple hospitals or groups.
+
+Validation at this level could include showing early versions of the visualization to classmates or other users and asking them to complete simple tasks. If users have difficulty identifying the intended pattern or interpreting the data correctly, the design would need to be revised.
+
+## 4. Algorithm
+
+At the algorithm level, I would need to make sure the visualization is implemented correctly and performs well.
+
+This would include verifying that the data loads correctly, values are parsed properly, calculations are accurate, and filters or interactions return the expected results.
+
+For example, if I calculate an average wait time, recall count, or hospital quality measure, I would need to verify that the calculation matches the original dataset. If the project combines multiple datasets, I would also need to confirm that records are joined correctly.
+
+Performance could also become important if I use a large healthcare dataset. The visualization should load in a reasonable amount of time and remain responsive when the user filters or interacts with the data.
+
+Validation at this level could include comparing calculated values with the source dataset, testing the visualization with different inputs, checking for missing or invalid data, and confirming that the interface behaves correctly.
+
+## Overall Validation Approach
+
+The four levels help ensure that the project is not judged only by whether the final visualization looks good. A successful project should address a useful healthcare question, use the correct data and tasks, present the information in an effective way, and be implemented accurately.
+
+As I narrow down my final project topic, I would use these levels to evaluate each design decision and revise the project if problems are discovered at any level.
