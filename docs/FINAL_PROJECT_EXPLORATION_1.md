@@ -433,3 +433,55 @@ Validation at this level could include comparing calculated values with the sour
 The four levels help ensure that the project is not judged only by whether the final visualization looks good. A successful project should address a useful healthcare question, use the correct data and tasks, present the information in an effective way, and be implemented accurately.
 
 As I narrow down my final project topic, I would use these levels to evaluate each design decision and revise the project if problems are discovered at any level.
+
+
+# Updated Direction and New Learnings
+
+Since the original project exploration, I have become more interested in building something that is not just a static visualization, but an interactive tool that allows a user to compare, filter, and inspect healthcare data.
+
+The weekly assignments have helped clarify some design ideas that could be incorporated into the final project. In particular, I have learned how useful it is to combine a clear overview with interaction that allows the user to focus on a subset of the data.
+
+For example, in the subway reliability assignments, I used:
+
+- Clear titles and axis labels to improve legibility.
+- Sorted values to make comparisons easier.
+- Hover tooltips to show exact values without adding too much clutter.
+- Interactive filtering so the user can focus on a subset of the data.
+- Simple explanatory text to help users interpret what higher or lower values mean.
+
+These same ideas could be useful in a healthcare visualization. For example, a hospital quality project could allow the user to filter by state or hospital type, compare several hospitals, and hover over individual values for more detail.
+
+At this point, I am still considering the four healthcare directions explored earlier, but I am especially interested in projects that combine comparison, filtering, and geographic or categorical exploration.
+
+
+# Relevant Assignment Work
+
+## Legibility and Exact Values
+
+![Week 4 subway reliability visualization](images/week4-subway.png)
+
+This assignment focused on improving legibility. I added clearer labels, simplified axis values, and exact values above the bars. I also added a hover tooltip that lets users inspect the exact Mean Distance Between Failures for each subway car class.
+
+A similar approach could be useful in my final project because healthcare datasets often contain many values that would be difficult to label directly. Tooltips could provide additional detail while keeping the main visualization simple.
+
+## Interactive Filtering
+
+![Week 5 subway reliability visualization](images/week5-subway.png)
+
+This assignment added filtering by subway division. The user can switch between different subsets of the dataset and the chart updates dynamically.
+
+This interaction could transfer directly to the final project. For example, users could filter hospital quality data by state, hospital type, measure, or region. For a medical device safety project, the user could filter by device category, recall classification, manufacturer, or time period.
+
+# North Star Visualization
+
+![North star hospital quality sketch](images/north-star-hospital-quality.png)
+
+My north star idea is an interactive hospital quality explorer. ChatGPT generated the above AI image based on the description I gave. 
+
+The ideal version would combine several different ways of exploring the same healthcare dataset. A user could select a state or region and see hospitals geographically, then select one or more hospitals for more detailed comparison.
+
+The visualization could include multiple hospital quality measures such as patient experience, timely care, readmissions, and other available CMS measures. Users could filter by measure, region, or hospital characteristics and hover over individual values for additional information.
+
+The goal would be to provide both an overview and detailed comparison in the same interface. The map would help users understand geographic patterns, while the comparison views would help users identify differences between individual hospitals.
+
+This is intentionally ambitious. I may not implement every element by the end of the course, but it represents the type of interactive healthcare visualization I would ideally like to build.
