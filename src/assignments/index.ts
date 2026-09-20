@@ -3,6 +3,7 @@ import { ResponsivePseudoScatterPlot } from './week-01/ResponsivePseudoScatterPl
 import { DatasetSummary } from './week-02/DatasetSummary';
 import { SubwayReliabilityChart } from './week-03/SubwayReliabilityChart';
 import { SubwayReliabilityChartImproved } from './week-04/SubwayReliabilityChartImproved';
+import { SubwayReliabilityInteractive } from './week-05/SubwayReliabilityInteractive';
 
 export interface Assignment {
   id: string;
@@ -30,6 +31,11 @@ export const assignments: Assignment[] = [
     id: '4',
     name: 'Week 4',
     component: SubwayReliabilityChartImproved,
+  },
+  {
+    id: '5',
+    name: 'Week 5',
+    component: SubwayReliabilityInteractive,
   },
 ];
 
