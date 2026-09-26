@@ -510,4 +510,4 @@ Future versions could add a geographic view, more detailed patient-experience me
 
 ![Hospital Quality Explorer V1](images/week6-hospital-quality.jpeg)
 
-[View hosted Week 6 visualization](PASTE_HOSTED_LINK_HERE)
+[View hosted Week 6 visualization](https://janehoward10.github.io/data-visualization-student-starter/?example=6)
