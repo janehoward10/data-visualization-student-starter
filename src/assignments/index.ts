@@ -4,6 +4,7 @@ import { DatasetSummary } from './week-02/DatasetSummary';
 import { SubwayReliabilityChart } from './week-03/SubwayReliabilityChart';
 import { SubwayReliabilityChartImproved } from './week-04/SubwayReliabilityChartImproved';
 import { SubwayReliabilityInteractive } from './week-05/SubwayReliabilityInteractive';
+import { HospitalQualityExplorer } from './week-06/HospitalQualityExplorer';
 
 export interface Assignment {
   id: string;
@@ -36,6 +37,11 @@ export const assignments: Assignment[] = [
     id: '5',
     name: 'Week 5',
     component: SubwayReliabilityInteractive,
+  },
+  {
+    id: '6',
+    name: 'Week 6',
+    component: HospitalQualityExplorer,
   },
 ];
 

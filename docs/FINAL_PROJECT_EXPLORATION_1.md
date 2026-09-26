@@ -485,3 +485,29 @@ The visualization could include multiple hospital quality measures such as patie
 The goal would be to provide both an overview and detailed comparison in the same interface. The map would help users understand geographic patterns, while the comparison views would help users identify differences between individual hospitals.
 
 This is intentionally ambitious. I may not implement every element by the end of the course, but it represents the type of interactive healthcare visualization I would ideally like to build.
+
+
+
+
+
+# Week 6: Hospital Quality Explorer V1
+
+For Week 6, I created the first working version of my Hospital Quality Explorer concept using public CMS hospital data.
+
+This version begins implementing the core tasks identified in my earlier task analysis. Users can filter hospitals by state and hospital type, search for a hospital or city, compare overall CMS hospital ratings, and select an individual hospital to inspect additional information.
+
+The selected hospital view includes hospital type, ownership, emergency services, and summaries of CMS mortality, safety, readmission, and patient-experience measures.
+
+This version is intentionally narrower than my North Star design. Instead of trying to immediately implement every feature, including the geographic map, I focused first on the core interaction flow:
+
+**Filter → Compare → Select → Inspect**
+
+The ranked hospital view helps users compare facilities quickly, while the color encoding makes the CMS rating differences easier to see. Hovering provides additional details, and clicking a hospital opens a more detailed summary.
+
+Future versions could add a geographic view, more detailed patient-experience measures, and additional ways to compare multiple hospitals directly.
+
+## Current V1
+
+![Hospital Quality Explorer V1](images/week6-hospital-quality.jpeg)
+
+[View hosted Week 6 visualization](PASTE_HOSTED_LINK_HERE)
