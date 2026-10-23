@@ -7,6 +7,7 @@ import { SubwayReliabilityInteractive } from './week-05/SubwayReliabilityInterac
 import { HospitalQualityExplorer } from './week-06/HospitalQualityExplorer';
 import { HospitalBrushableScatterplotMatrix } from './week-07/HospitalBrushableScatterplotMatrix';
 import { HospitalQualityExplorerV2 } from './week-08/HospitalQualityExplorerV2';
+import { HospitalQualityInteractiveLegend } from './week-10/HospitalQualityInteractiveLegend';
 
 export interface Assignment {
   id: string;
@@ -54,6 +55,11 @@ export const assignments: Assignment[] = [
     id: '8',
     name: 'Week 8',
     component: HospitalQualityExplorerV2,
+  },
+  {
+    id: '10',
+    name: 'Week 10',
+    component: HospitalQualityInteractiveLegend,
   },
 ];
 
