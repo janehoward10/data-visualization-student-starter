@@ -9,6 +9,7 @@ import { HospitalBrushableScatterplotMatrix } from './week-07/HospitalBrushableS
 import { HospitalQualityExplorerV2 } from './week-08/HospitalQualityExplorerV2';
 import { HospitalQualityInteractiveLegend } from './week-10/HospitalQualityInteractiveLegend';
 import { HospitalQualityExplorerPolished } from './week-11/HospitalQualityExplorerPolished';
+import { HospitalProfileExplorer } from './week-12/HospitalProfileExplorer';
 
 export interface Assignment {
   id: string;
@@ -66,6 +67,11 @@ export const assignments: Assignment[] = [
     id: '11',
     name: 'Week 11',
     component: HospitalQualityExplorerPolished,
+  },
+  {
+    id: '12',
+    name: 'Week 12',
+    component: HospitalProfileExplorer,
   },
 ];
 
